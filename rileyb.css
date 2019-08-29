@@ -1,0 +1,45 @@
+body {
+	background-color: #990033;
+}
+header {
+	background-color: #a6a6a6;
+	background-image: url("Selfie.jpg");
+	background-position: right;
+	background-repeat: no-repeat;
+	height: 111px; /* background-image height is 111 */
+	padding: 5px;
+	padding-left: 20px;
+	}
+footer {
+	background-color: #a6a6a6;
+	color: black;
+}
+#content {
+	background-color: #e6e6e6;
+	padding: 15px;
+	min-height: 300px;
+}
+header, footer, #content {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+}
+#wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	box-shadow: 5px 5px 5px black;
+}
+h1 {
+	color: black;
+	font-size: 300%;
+	font-family: Cambria,Courier;
+}
+h2 {
+	color: black;
+	font-family: Verdana, Arial;
+}
+.floatImg {
+	float: left;
+	margin: 0px 10px;
+}
